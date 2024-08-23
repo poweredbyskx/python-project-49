@@ -5,7 +5,6 @@ def main():
     print("Welcome to the Brain Games!")
     name = welcome_user()
 
-    print(f'Hello, {name}!')
     print(f'What is the result of the expression?')
 
     score = 0

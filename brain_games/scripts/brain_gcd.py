@@ -5,7 +5,6 @@ def main():
     print("Welcome to the Brain Games!")
     name = welcome_user()
 
-    print(f'Hello, {name}!')
     print(f'Find the greatest common divisor of given numbers.')
 
     score = 0

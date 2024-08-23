@@ -5,7 +5,6 @@ def even_num(number):
     return number % 2 == 0
 
 def even_num_game(name):
-    print(f'Hello, {name}!')
     print(f'Answer "yes" if the number is even, otherwise answer "no".')
 
     score = 0

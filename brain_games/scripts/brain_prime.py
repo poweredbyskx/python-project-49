@@ -5,7 +5,6 @@ def main():
     print("Welcome to the Brain Games!")
     name = welcome_user()
 
-    print(f'Hello, {name}!')
     print(f'Answer "yes" if given number is prime. Otherwise answer "no".')
 
     def simple_num(number):
