@@ -39,7 +39,6 @@ def main():
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             score = 0
-            break
 
     if score == 3:
         print(f'Congratulations, {name}!')
