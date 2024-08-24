@@ -11,18 +11,16 @@ def main():
     while score < 3:
         def generate_progression(length, hidden_index):
             start = randint(1, 50)
-            step = randint(1, 5)
+            step = randint(1, 10)
             progression = [start + step * i for i in range(length)]
+            correct_answer = str(progression[hidden_index])
             progression[hidden_index] = '..'
-            return progression
+            return progression, correct_answer
 
         def generate_game():
             progression_length = randint(5, 10)
             hidden_index = randint(0, progression_length - 1)
-            progression = generate_progression(progression_length, hidden_index)
-
-            correct_answer = str(progression[hidden_index - 1] + (progression[hidden_index - 1] - progression[hidden_index - 2]))
-
+            progression, correct_answer = generate_progression(progression_length, hidden_index)
             return progression, correct_answer
 
         progression, correct_answer = generate_game()
@@ -38,7 +36,7 @@ def main():
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            score = 0
+            break
 
     if score == 3:
         print(f'Congratulations, {name}!')
