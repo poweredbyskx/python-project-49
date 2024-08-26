@@ -4,6 +4,8 @@
 <a href="https://codeclimate.com/github/poweredbyskx/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/ac1d63a599e500ad8a1d/maintainability" /></a>
 <a href="https://codeclimate.com/github/poweredbyskx/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/ac1d63a599e500ad8a1d/test_coverage" /></a>
 
+AsciinemaPlayer.create('demo.cast', document.getElementById('demo'));
+
 Brain Even Demo
 <script src="https://asciinema.org/a/NrXjAi3rbqyOXrVcsAvsCFXn3.js" id="asciicast-NrXjAi3rbqyOXrVcsAvsCFXn3" async="true"></script>
 
