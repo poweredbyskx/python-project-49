@@ -11,11 +11,10 @@ def generate_progression(length, hidden_index):
     progression[hidden_index] = '..'
     return progression, correct_answer
 
+
 def generate_game():
     progression_length = randint(5, 10)
     hidden_index = randint(0, progression_length - 1)
-
     progression, correct_answer = generate_progression(progression_length, hidden_index)
-
-    question = " ".join(map(str, progression))
+    question = " ".join(progression)
     return question, correct_answer

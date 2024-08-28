@@ -9,6 +9,5 @@ def is_even(number):
 
 def generate_game():
     random_num = randint(1, 100)
-    question = str(random_num)
     correct_answer = 'yes' if is_even(random_num) else 'no'
     return random_num, correct_answer

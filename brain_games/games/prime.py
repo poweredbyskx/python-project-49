@@ -15,6 +15,7 @@ def simple_num(number):
             return False
     return True
 
+
 def generate_game():
     number = randint(1, 100)
     result = "yes" if simple_num(number) else "no"
