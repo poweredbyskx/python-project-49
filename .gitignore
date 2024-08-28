@@ -3,5 +3,5 @@ dist/
 __pycache__/
 *.pyc
 include/
-lib/
-lib64/
+venv/
+
