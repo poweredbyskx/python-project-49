@@ -11,6 +11,8 @@ packages = [
 python = "^3.12"
 prompt = "^0.4.1"
 requests = "^2.32.3"
+pylint = "^3.2.6"
+flake8 = "^7.1.1"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
